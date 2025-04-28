@@ -1,0 +1,11 @@
+aiohttp
+curl_cffi
+eth_account
+protobuf
+tempmail-lol
+web3
+grpcio-tools
+protobuf==5.29.4
+curl_cffi
+aiohttp
+eciespy
