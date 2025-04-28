@@ -3,7 +3,7 @@
 import subprocess
 
 try:
-    subprocess.check_call(['python', '-m', 'pip', 'install', '-r', 'requirements.txt'])
+    subprocess.check_call(['python3', '-m', 'pip', 'install', '-r', 'requirements.txt'])
     print("Requirements installed successfully.")
 except subprocess.CalledProcessError as e:
     print(f"An error occurred while installing requirements: {e}")
